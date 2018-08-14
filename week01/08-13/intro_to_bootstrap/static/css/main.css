@@ -1,0 +1,24 @@
+.navbar {
+  border-radius: 0;
+}
+
+.main-content {
+  background-color: aquamarine;
+}
+
+.sidebar-content {
+  background-color: burlywood;
+}
+
+.spacing {
+  margin-bottom: 15px;
+}
+
+
+/* CSS Syntax */
+
+/* 
+.classname {
+  css-property: css-value;
+} 
+*/
