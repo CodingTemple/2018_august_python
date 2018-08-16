@@ -1,0 +1,41 @@
+.navbar {
+  border-radius: 0;
+}
+
+/* #example1 {
+  background: url('https://www.w3schools.com/css/img_flwr.gif') right bottom no-repeat, url('https://www.w3schools.com/css/paper.gif') left top repeat;
+  padding: 15px;
+} */
+
+/* #example1 {
+  border: 2px solid black;
+  background: url('https://www.w3schools.com/css/img_flwr.gif') no-repeat;
+  background-size: 100px 80px;
+  padding: 15px;
+} */
+
+#example1{
+  background: url('https://www.w3schools.com/css/img_tree.gif') left top no-repeat, url('https://www.w3schools.com/css/img_flwr.gif') right bottom no-repeat, url('https://www.w3schools.com/css/paper.gif') left top repeat;
+  padding: 15px;
+  background-size: 50px, 130px, auto
+}
+
+#example2 {
+  border: 2px solid black;
+  background: url('https://www.w3schools.com/css/img_flwr.gif') no-repeat;
+  padding: 15px;
+}
+
+#example1, #example2 {
+  margin-bottom: 30px;
+}
+
+/* body {
+  background: url('https://www.w3schools.com/css/img_flower.jpg') no-repeat center fixed;
+  background-size: cover;
+} */
+
+.my_button {
+  background: radial-gradient(circle, lightgray, antiquewhite, white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

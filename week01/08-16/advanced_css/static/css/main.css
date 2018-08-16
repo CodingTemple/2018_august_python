@@ -1,0 +1,57 @@
+.navbar {
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hero-image {
+  background: url('../img/hero.jpg') no-repeat;
+  height: 400px;
+  
+}
+
+.picture {
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  margin-top: 50px;
+}
+
+footer p {
+  padding: 30px 0;
+}
+
+.do-something {
+  transition: 2s;
+  height: 50px;
+  width: 100px;
+}
+
+.do-something:hover {
+  height: 250px;
+  width: 500px;
+}
+
+.github-image {
+  transition: 1s;
+}
+
+.github-image:hover {
+  transform: rotateY(180deg);
+}
+
+.picture {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Media Queries */
+@media screen and (min-width: 871px), screen and (max-width: 1735px) {
+  .picture, .github-image {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}
